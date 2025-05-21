@@ -33,6 +33,7 @@ export default function RootLayout({
         >
           <nav className="flex justify-end bg-background">
             <MyLink to="" define="home" />
+            {/* <MyLink to="create" define="Add" /> */}
             <MyLink to="protected" define="Profile" />
           </nav>
           <main className="min-h-screen flex flex-col items-center">
